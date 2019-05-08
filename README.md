@@ -21,23 +21,20 @@
 
 ## Usage
 ### Train DCGAN with MNIST:<br>
-    ```python
+    ```
     python3 main.py --dataset mnist --cuda
     ```
-   <br>
 Two folders will be created, i.e., *data* & *results*. The *data* folder stores dataset. <br>
 The *results* folder stores the generated images and the trained models.<br> 
 You can also use cifar10, lsun, imagenet, randomly generated fake data, etc.
 ### Download lsun dataset:<br>
-    ```python
+    ```
     python3 download_lsun.py
     ```
-   <br>
 Download the whole data set and save it to ./data.<br>
-    ```python
+    ```
     python3 download_lsun.py --category bedroom 
     ```
-   <br>
 Download data for bedroom.<br> By replacing the option of *--category*, you can download data of each category in LSUN as well.
 
 ## NOTE
