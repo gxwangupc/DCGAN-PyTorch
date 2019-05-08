@@ -39,7 +39,8 @@ Download the whole data set.<br>
 
 ## NOTE
  * The DCGAN architecture is a relatively primary version. Now there exists some new modifications.<br> 
- * The batch_size, size of feature maps of both G and D are all set to 64, different from that in the paper (128).<br>With above hyperparameters set to 128, the model confronts gradient vanishing. Hope someone help me with it.
+ * The batch_size, size of feature maps of both G and D are all set to 64, different from that in the paper (128).<br>
+ * With above hyperparameters set to 128, the model confronts gradient vanishing. Hope someone help me with it.
  
 ## References 
 1. PyTorch documentation
