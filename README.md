@@ -3,7 +3,7 @@
 ## Introduction
  * The code is adapted from the PyTorch documentation examples:<br>
 <https://github.com/pytorch/examples/tree/master/dcgan> <br>
- * The file download_lsun.py comes from a nice repository for downloading LSUN dataset:
+ * The file download_lsun.py comes from a nice repository for downloading LSUN dataset:<br>
 <https://github.com/fyu/lsun> <br>
 
  * I have added massive comments for the code. Hope it beneficial for understanding GANs/DCGANs, especially for a beginner.
